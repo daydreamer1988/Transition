@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:interpolator/accelerate_quad"
+    android:duration="2000"
+    android:transitionOrdering="together"
+    android:startDelay="1000">
+    <fade
+        android:fadingMode="fade_in"
+        android:startDelay="200">
+        <targets>
+        </targets>
+    </fade>
+
+
+    <explode></explode>
+
+    <slide></slide>
+
+    <changeBounds></changeBounds>
+
+    <changeClipBounds></changeClipBounds>
+
+    <changeImageTransform></changeImageTransform>
+
+    <changeTransform></changeTransform>
+
+</transitionSet>
